@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="dextra.css">
+    <title>DexTrajaninho</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">DexTrajaninho</h1>
+    </header>
+    <main>
+        <section class="container">
+            <h2 class="titulo">Meus Pokémon</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Level</th>
+                        <th>Tipo</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-poke">
+                        <tr class="poke">
+                            <td class="nome-poke">Abra</td>
+                            <td class="lvl-poke">10</td>
+                            <td class="tipo-poke">Psíquico</td>
+                        </tr>
+                        <tr class="poke">
+                            <td class="nome-poke">Charmander</td>
+                            <td class="lvl-poke">15</td>
+                            <td class="tipo-poke">Fogo</td>
+                        </tr>
+                        <tr class="poke">
+                            <td class="nome-poke">Poliwag</td>
+                            <td class="lvl-poke">12</td>
+                            <td class="tipo-poke">Água</td>
+                        </tr>
+                        <tr class="poke">
+                            <td class="nome-poke">Pikachu </td>
+                            <td class="lvl-poke">13</td>
+                            <td class="tipo-poke">Elétrico</td>
+                        </tr>
+                        <tr class="poke">
+                            <td class="nome-poke">Oddish</td>
+                            <td class="lvl-poke">15</td>
+                            <td class="tipo-poke">Grama</td>
+                            </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <section class="container">
+            <form id="form-add">
+                <div class="grupo">
+                    <label for="nome">Nome:</label>
+                    <input  id="nome"  name = "nome" type="text" placeholder="digite o nome do pokémon" class="campo">
+                </div>
+                <div class="grupo">
+                    <label for="lvl">Level:</label>
+                    <input  id="lvl"  name = "lvl" type="text" placeholder="digite o lvl do pokémon" class="campo">
+                </div>
+                <div class="grupo">
+                    <label for="tipo">Tipo:</label>
+                    <input  id="tipo"  name = "tipo" type="text" placeholder="digite o tipo do pokémon" class="campo">
+                </div>
+                <button id="adicionar-poke" class="bto-principal">Adicionar Pokémon</button>
+            </form>
+        </section>
+        <script src="dextrajs/dextre.js"></script>
+    </body>
+</html>

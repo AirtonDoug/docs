@@ -1,0 +1,30 @@
+
+binário 0 1
+numérico 0 1 2 3 4 5 6 7 8 9
+hexadecimal 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+RGB = Red Green Blue
+
+
+# _ _ _ _ _ _
+
+0 = ausênciade cor
+
+F = Maximo de cor
+
+# 000000 = preto
+# FFFFFF = branco
+
+# FF0000 = vermelho
+
+red
+blue
+yellow
+
+
+RGB 0,1,2,3,...255
+
+0= ausencia
+255 = máximo
+
+rgb("vermelho","verde","azul").
