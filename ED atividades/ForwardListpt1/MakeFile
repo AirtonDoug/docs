@@ -1,0 +1,11 @@
+all:
+
+	g++ -c ForwardList.cpp
+	g++ -c main.cpp
+	g++ *.o -o vai
+run:
+	./vai
+
+clean:
+	del C:\Users\AirtonDoug\Desktop\c++\ED atividades\ForwardListpt1\*.o
+	del C:\Users\AirtonDoug\Desktop\c++\ED atividades\ForwardListpt1\vai.exe
